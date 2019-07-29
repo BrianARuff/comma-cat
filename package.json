@@ -1,0 +1,45 @@
+{
+  "name": "comma-cat",
+  "version": "1.0.0",
+  "description": "Concatenate a sequence(array) of string values with a comma separator excluding the last value.",
+  "main": "comma-cat.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrianARuff/comma-cat.git"
+  },
+  "keywords": [
+    "comma",
+    "separated",
+    "list",
+    "separate",
+    "by",
+    "comma",
+    "comma",
+    "list",
+    "comma",
+    "comma",
+    "cat",
+    "comma-cat",
+    "concatenate",
+    "list",
+    "with",
+    "commas",
+    "except",
+    "last",
+    "value",
+    "concatenate",
+    "strings",
+    "with",
+    "comma"
+  ],
+  "author": "Brian Ruff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrianARuff/comma-cat/issues"
+  },
+  "homepage": "https://github.com/BrianARuff/comma-cat#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
