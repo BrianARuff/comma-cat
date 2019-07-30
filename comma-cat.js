@@ -2,7 +2,7 @@ function isString(value) {
     if (typeof value === 'string' || value instanceof String) {
         return true;
     } else {
-        console.log(new Error("Input most likely contains a NON-string value"))
+        console.error(new Error("Input most likely contains a NON-string value"))
     }
 };
 
