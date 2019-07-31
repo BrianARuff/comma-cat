@@ -8,29 +8,15 @@
     "url": "git+https://github.com/BrianARuff/comma-cat.git"
   },
   "keywords": [
+    "comma separated list",
+    "separate by comma",
+    "comma list",
     "comma",
-    "separated",
-    "list",
-    "separate",
-    "by",
-    "comma",
-    "comma",
-    "list",
-    "comma",
-    "comma",
-    "cat",
+    "comma cat",
     "comma-cat",
     "concatenate",
-    "list",
-    "with",
-    "commas",
-    "except",
-    "last",
-    "value",
-    "concatenate",
-    "strings",
-    "with",
-    "comma"
+    "list with commas except last value",
+    "concatenate strings with comma"
   ],
   "author": "Brian Ruff",
   "license": "ISC",
@@ -38,8 +24,20 @@
     "url": "https://github.com/BrianARuff/comma-cat/issues"
   },
   "homepage": "https://github.com/BrianARuff/comma-cat#readme",
-  "dependencies": {},
+  "scripts": {
+    "build": "webpack -w"
+  },
+  "dependencies": {
+    "@babel/core": "^7.5.5"
+  },
   "devDependencies": {
-    "nodemon": "^1.19.1"
+    "@babel/preset-env": "^7.5.5",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.19.1",
+    "webpack": "^4.38.0",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
   }
 }
