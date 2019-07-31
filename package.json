@@ -1,6 +1,6 @@
 {
   "name": "comma-cat",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Concatenate a sequence(array) of string values with a comma separator excluding the last value.",
   "main": "comma-cat.js",
   "repository": {
