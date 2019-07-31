@@ -89,5 +89,5 @@ typings/
 
 #webpack
 webpack.config.js
-wp-babel-directions.md
+webpack-babel-config-tutorial.md
 build
