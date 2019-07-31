@@ -25,7 +25,8 @@
   },
   "homepage": "https://github.com/BrianARuff/comma-cat#readme",
   "scripts": {
-    "build": "webpack -w"
+    "build": "webpack -w",
+    "test": "jest --watch"
   },
   "dependencies": {
     "@babel/core": "^7.5.5"
@@ -35,6 +36,7 @@
     "babel-core": "^6.26.3",
     "babel-loader": "^8.0.6",
     "babel-preset-env": "^1.7.0",
+    "jest": "^24.8.0",
     "nodemon": "^1.19.1",
     "webpack": "^4.38.0",
     "webpack-cli": "^3.3.6",
