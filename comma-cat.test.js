@@ -6,7 +6,7 @@ describe("commaCat", () => {
     expect(commaCat(["1", "2", "3"])).toBe("1, 2, 3");
   });
 
-  test("['1'] returns as 1, 2, 3", () => {
+  test("['1'] returns as 1", () => {
     expect(commaCat(["1"])).toBe("1");
   });
 
