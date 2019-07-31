@@ -1,7 +1,7 @@
 const isString = value => {
-    try {
-        return typeof value === 'string' || value instanceof String
-    } catch (error) {
+    if (typeof value === 'string' || value instanceof String) {
+        return true;
+    } else {
         throw new Error("Input most likely contains a NON-string value");
     }
 };
