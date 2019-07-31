@@ -86,3 +86,8 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+#webpack
+webpack.config.js
+wp-babel-directions.md
+build

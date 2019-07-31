@@ -11,29 +11,29 @@ babel-loader babel-preset-env` to install all the needed dependencies. Note that
 8. Use npm to install the following `npm install --save-dev @babel/preset-env`
 9. Paste the following into your webpack config file.
   ```
-    const path = require("path");
+  const path = require("path");
 
-    module.exports = {
-      entry: {
-        app: "./your_app_entry_point_file_location.js"
-      },
-      output: {
-        path: path.resolve(__dirname, "build"),
-        filename: "your_app_entry_point_file_name.bundle.js"
-      },
-      module: {
-        rules: [
-          {
-            test: /\.js?$/,
-            exclude: /node_modules/,
-            loader: "babel-loader",
-            query: {
-              presets: ["@babel/preset-env"]
-            }
+  module.exports = {
+    entry: {
+      app: path.resolve(__dirname, "comma-cat-max.js")
+    },
+    output: {
+      path: path.resolve(__dirname, "build"),
+      filename: "comma-cat.js"
+    },
+    module: {
+      rules: [
+        {
+          test: /\.js?$/,
+          exclude: /node_modules/,
+          loader: "babel-loader",
+          query: {
+            presets: ["@babel/preset-env"]
           }
-        ]
-      },
-      mode: "none"
-    }
+        }
+      ]
+    },
+    mode: "production"
+  }
   ```
-Note that `__dir` is the current directory of the `webpack.config.js` file so it should also be placed at the same level as your build directory unles you want to configure differently yourself. I recommend starting simple and then expanding in difficulty though.
+Note that `__dir` is the current directory of the `webpack.config.js` file so it should also be placed at the same level as your build directory unles you want to configure differently yourself. I recommend starting simple and then expanding in difficulty though. Also, setting the mode to production does things like minify your output.
