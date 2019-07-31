@@ -90,4 +90,3 @@ typings/
 #webpack
 webpack.config.js
 webpack-babel-config-tutorial.md
-build
